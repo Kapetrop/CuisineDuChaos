@@ -1,0 +1,49 @@
+ //         $query = "INSERT INTO `Utilisateur`( `nomUtilisateur`, `prenom`, `email`, `motDePasse`) VALUES (?,?,?,?);";
+    //         $stmt = $pdo->prepare($query);
+        
+    //         $options = [
+    //          'cost' => 12,
+    //          ];
+    //          $hashedPwd = password_hash($passwordfr, PASSWORD_BCRYPT, $options);
+    //          $stmt->execute([$nomUser, $prenom, $email, $hashedPwd]);
+
+    //          $pdo = null;
+    //          $stmt = null;
+
+    //          header("Location: ../index.php");
+
+    //          die("Query successful");
+    //    echo "Connected successfully";
+
+    
+    //    $query = "INSERT INTO `Utilisateur`( `nomUtilisateur`, `prenom`, `email`, `motDePasse`) VALUES (?,?,?,?);";
+    //    $stmt = $pdo->prepare($query);
+
+    //    $options = [
+    //     'cost' => 12,
+    //     ];
+        <!-- $hashedPwd = password_hash($passwordfr, PASSWORD_BCRYPT, $options);
+        $stmt->execute([$nomUser, $prenom, $email, $hashedPwd]);
+
+        $pdo = null;
+        $stmt = null;
+
+        header("Location: ../index.php");
+
+        die("Query successful"); -->
+
+        // $query = "INSERT INTO Utilisateur (nomUtilisateur, motDePasse, email, prenom) VALUES (:username, :pwd, :email, :prenom);";
+//     // $stmt = $pdo->prepare($query);
+//     // $options = [
+//     //     'cost' => 12,
+//     // ];
+//     // $hashedMDP = password_hash($pwd, PASSWORD_BCRYPT, $options);
+//     // $stmt->bindParam(":email", $email);
+//     // $stmt->bindParam(":username", $username);
+//     // $stmt->bindParam(":pwd", $$hashedMDP);
+//     // $stmt->bindParam(":prenom", $prenom);
+
+//     // $stmt->execute();
+
+//     // $result = $stmt->fetch(PDO::FETCH_ASSOC);
+//     // return $result;
